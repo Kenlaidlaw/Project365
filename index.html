@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="timetrack.css" />
+    <title>Timetrack</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <section class="container" id="headerSection">
+      <img src="TTlogo.png" alt="TT Logo" class="tt_logo" />
+      <div class="title">
+        <h1>Welcome to Time Track</h1>
+        <p>Your number one option for managing your time at the top level!</p>
+      </div>
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="index.html">About</a></li>
+          <li class="nav-item"><a href="index.html">Help</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Dashboard -->
+    <section class="container" id="dashboard">
+      <div class="dash-item">
+        <p>Hours available</p>
+        <div id="hoursAvailable" class="indicator">0</div>
+      </div>
+      <div class="dash-item">
+        <p>Hours allocated</p>
+        <div id="hoursAllocated" class="indicator">0</div>
+      </div>
+      <div class="dash-item">
+        <p>Hours left</p>
+        <div id="hoursLeft" class="indicator">0</div>
+      </div>
+    </section>
+
+    <!-- tasks section -->
+    <section id="taskOverview">
+      <h2 class="task-header">Create a New Task</h2>
+      <label for="taskName">Task</label>
+      <input type="text" id="taskName" />
+      <label for="taskAllocation">How many hours?</label>
+      <input type="number" id="taskAllocation" />
+      <button id="newGroup">Add task</button>
+    </section>
+
+    <!-- setup section -->
+    <section id="setup">
+      <h1 class="setupHeading">How do you spend your time?</h1>
+      <p class="setupExp">Please complete this section to work out how many hours you have available for your goals each week.</p>
+      <br />
+
+      <form action="" id="setupInfo">
+        <div class="form-item">
+          <label for="infoSleep">How many hours a day do you sleep?</label>
+          <input type="number" id="infoSleep" />
+        </div>
+        <div class="form-item">
+          <label for="infoLife">How many hours a day do you use for washing/eating/etc?</label>
+          <input type="number" id="infoLife" />
+        </div>
+        <div class="form-item">
+          <label for="infoFamily">How many hours a day do you need for family?</label>
+          <input type="number" id="infoFamily" />
+        </div>
+        <div class="form-item">
+          <label for="infoWork">How many hours a day do you need for Work?</label>
+          <input type="number" id="infoWork" />
+        </div>
+      </form>
+    </section>
+
+    <script src="timetrack.js"></script>
+  </body>
+</html>

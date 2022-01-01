@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page utilities and standards */
+
+li {
+  list-style: none;
+}
+
+/* header section */
+
+#headerSection {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.nav-item {
+  padding: 10px 30px;
+}
+
+/* Dashboard area */
+#dashboard {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+}
+
+.dash-item {
+  border-radius: 50%;
+  background-color: aquamarine;
+  width: 120px;
+  height: 120px;
+  padding: 20px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.indicator {
+  font-size: 2rem;
+  padding: 4px 0;
+  background-color: #fff;
+}
+.inputHours {
+  width: 80px;
+  height: 30px;
+  font-size: 2rem;
+  padding: 4px 0;
+  text-align: center;
+}
+
+/* task area */
+#taskOverview {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* Settings */
+#setup {
+  text-align: center;
+  padding: 2rem 1rem;
+}
