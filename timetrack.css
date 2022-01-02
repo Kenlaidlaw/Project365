@@ -72,3 +72,21 @@ li {
   text-align: center;
   padding: 2rem 1rem;
 }
+
+/* Practice area */
+
+#practice {
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dash-item.tester {
+  color: black;
+  margin-top: 20px;
+}
