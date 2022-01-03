@@ -21,8 +21,38 @@
           <li class="nav-item"><a href="index.html">Home</a></li>
           <li class="nav-item"><a href="index.html">About</a></li>
           <li class="nav-item"><a href="index.html">Help</a></li>
+          <li class="nav-item"><a href="practice.html">Practice</a></li>
         </ul>
       </nav>
+    </section>
+
+    <!-- setup section -->
+    <section id="setup">
+      <h1 class="setupHeading">How do you spend your time?</h1>
+      <p class="setupExp">Please complete this section to work out how many hours you have available for your goals each week.</p>
+      <br />
+
+      <form action="" id="setupInfo">
+        <div class="form-item">
+          <label for="infoSleep">How many hours a day do you sleep?</label>
+          <input type="number" id="infoSleep" />
+        </div>
+        <div class="form-item">
+          <label for="infoLife">How many hours a day do you use for washing/eating/etc?</label>
+          <input type="number" id="infoLife" />
+        </div>
+        <div class="form-item">
+          <label for="infoFamily">How many hours a day do you need for family?</label>
+          <input type="number" id="infoFamily" />
+        </div>
+        <div class="form-item">
+          <label for="infoWork">How many hours a day do you need for Work?</label>
+          <input type="number" id="infoWork" />
+        </div>
+        <div class="btn">
+          <input type="button" value="Calculate" onclick="addInputs()" />
+        </div>
+      </form>
     </section>
 
     <!-- Dashboard -->
@@ -49,52 +79,6 @@
       <label for="taskAllocation">How many hours?</label>
       <input type="number" id="taskAllocation" />
       <button id="newGroup">Add task</button>
-    </section>
-
-    <!-- setup section -->
-    <section id="setup">
-      <h1 class="setupHeading">How do you spend your time?</h1>
-      <p class="setupExp">Please complete this section to work out how many hours you have available for your goals each week.</p>
-      <br />
-
-      <form action="" id="setupInfo">
-        <div class="form-item">
-          <label for="infoSleep">How many hours a day do you sleep?</label>
-          <input type="number" id="infoSleep" />
-        </div>
-        <div class="form-item">
-          <label for="infoLife">How many hours a day do you use for washing/eating/etc?</label>
-          <input type="number" id="infoLife" />
-        </div>
-        <div class="form-item">
-          <label for="infoFamily">How many hours a day do you need for family?</label>
-          <input type="number" id="infoFamily" />
-        </div>
-        <div class="form-item">
-          <label for="infoWork">How many hours a day do you need for Work?</label>
-          <input type="number" id="infoWork" />
-        </div>
-      </form>
-    </section>
-
-    <!-- Section for learning and practising code before implementing it -->
-
-    <section id="practice">
-      <div class="form-item">
-        <label for="infoNum1">How many hours a day do you sleep?</label>
-        <input type="number" id="infoNum1" />
-      </div>
-      <div class="form-item">
-        <label for="infoNum2">How many hours a day do you use for washing/eating/etc?</label>
-        <input type="number" id="infoNum2" />
-      </div>
-      <div class="dash-item tester">
-        <p>Answer</p>
-        <div id="answer" class="indicator">0</div>
-      </div>
-      <div class="btn">
-        <input type="button" value="get answer" onclick="addInputs()" />
-      </div>
     </section>
 
     <script src="timetrack.js"></script>

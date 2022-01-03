@@ -30,14 +30,6 @@ li {
   padding: 10px 30px;
 }
 
-/* Dashboard area */
-#dashboard {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  padding: 20px;
-}
-
 .dash-item {
   border-radius: 50%;
   background-color: aquamarine;
@@ -48,27 +40,20 @@ li {
   justify-content: center;
 }
 
-.indicator {
-  font-size: 2rem;
-  padding: 4px 0;
-  background-color: #fff;
-}
-.inputHours {
-  width: 80px;
-  height: 30px;
-  font-size: 2rem;
-  padding: 4px 0;
+/* Working out how to take inputs and display elsewhere */
+
+#practice {
+  color: #fff;
+  background-color: black;
   text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* task area */
-#taskOverview {
-  text-align: center;
-  padding: 2rem 1rem;
-}
-
-/* Settings */
-#setup {
-  text-align: center;
-  padding: 2rem 1rem;
+.dash-item.tester {
+  color: black;
+  margin-top: 20px;
 }

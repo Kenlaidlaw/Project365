@@ -1,26 +1,14 @@
-const sleep = document.querySelector("#infoSleep");
-const eat = document.querySelector("#infoEat");
-const family = document.querySelector("#infoFamily");
 const hoursAvailable = document.querySelector("#hoursAvailable");
 
 // Working out how many hours are available?
 
-let sleepNum = 10;
-
-const hoursUsed = () => {
-  sleepNum = parsInt(sleep.value);
-  hoursAvailable.innerText = sleepNum;
-};
-
-// practice sets
-
-const answer = document.querySelector("#answer");
-
 function addInputs() {
-  const numOne = document.querySelector("#infoNum1").value;
-  const numTwo = document.querySelector("#infoNum2").value;
+  const sleep = document.querySelector("#infoSleep").value;
+  const eat = document.querySelector("#infoLife").value;
+  const family = document.querySelector("#infoFamily").value;
+  const work = document.querySelector("#infoWork").value;
 
-  let sum = parseInt(numOne) + parseInt(numTwo);
+  let sum = 168 - (parseInt(sleep) + parseInt(eat) + parseInt(family) + parseInt(work)) * 7;
 
-  answer.innerText = sum;
+  hoursAvailable.innerText = sum;
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="practice.css" />
+    <title>Timetrack</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <section class="container" id="headerSection">
+      <img src="TTlogo.png" alt="TT Logo" class="tt_logo" />
+      <div class="title">
+        <h1>Welcome to Time Track</h1>
+        <p>Your number one option for managing your time at the top level!</p>
+      </div>
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="index.html">About</a></li>
+          <li class="nav-item"><a href="index.html">Help</a></li>
+          <li class="nav-item"><a href="practice.html">Practice</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Section for learning and practising code before implementing it -->
+
+    <section id="practice">
+      <div class="form-item">
+        <label for="infoNum1">How many hours a day do you sleep?</label>
+        <input type="number" id="infoNum1" />
+      </div>
+      <div class="form-item">
+        <label for="infoNum2">How many hours a day do you use for washing/eating/etc?</label>
+        <input type="number" id="infoNum2" />
+      </div>
+      <div class="dash-item tester">
+        <p>Answer</p>
+        <div id="answer" class="indicator">0</div>
+      </div>
+      <div class="btn">
+        <input type="button" value="get answer" onclick="addInputs()" />
+      </div>
+    </section>
+
+    <script src="practice.js"></script>
+  </body>
+</html>
