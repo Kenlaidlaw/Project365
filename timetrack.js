@@ -12,3 +12,5 @@ function addInputs() {
 
   hoursAvailable.innerText = sum;
 }
+
+// Adding a new task
