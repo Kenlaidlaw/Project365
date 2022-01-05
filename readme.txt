@@ -16,3 +16,4 @@ Day 1 - Setting up files Github and this readme.  First challenge is to work out
 Day 2 - Learnt how to get two variables to be input and then use them to display another figure on the page
 Day 3 - Set up a practice page rather than the bottom of the existing index and looked at implementing what I learned yesterday to work out hours available.  Tomorrow I think will need to be focused on psuedo code and a better idea of what this needs to cover.
 Day 4 - Looked at how to add a task and the HTML and JS code required - attempted to put settings on a new page but don't think that is ideal until later on.
+Day 5 - revisited a tutorial on creating a task list and used it on practice page. - Need to decide on framework to use, thinking bulma
